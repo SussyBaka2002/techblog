@@ -17,156 +17,27 @@ body {
     margin: 0;
 }
 
-.site-body{
-
-}
-
-.site-header{
-    background-color: #89CFF0;
-}
-
-.poll-feed{
-    
-}
-
-.site-footer{
-
-}
-
 /* 
  * Create Rulesets (selectors and properties)
  * for the primary-nav
  */
 .primary-nav {
-    background-color: #2b2d2e81;
     color: rgb(27, 26, 26);
-    padding: 10px;
-    font-size: 60px;
-    margin: 5px;
+    padding: 0px;
+    font-size: 20px;
+    margin: 1px;
     font-family: 'Bebas Neue';
 }
 
-.primary-nav__list {
-    display: flex;
-    justify-content: space-around;
-    list-style-type: none;
-}
 
-.primary-nav__item {
 
-}
 
 .primary-nav__link {
-    padding: 25px;
     transition: all 0.5s ease;
-    text-decoration: none;
 }
 
 .primary-nav__link:hover {
     background-color: var(--babyblue);
     color: rgb(95, 33, 33);
-    text-shadow: 20px 20px black;
-}
-
-
- .poll {
-
- }
-
- .poll__question {
-    font-family: 'Roboto';
-    text-align: center;
-    background-color: var(--dkblue);
-    color: white;
-    font-size: 50px;
- }
- 
-.poll__header {
-}
-
-.poll__choices {
-    text-align: center;
-}
-
-.poll__choice {
-    font-family: 'Roboto';
-    border: 2px solid var(--dkblue);
-    background-color: var(--dkblue);
-    color: white;
-    border-radius: 4px;
-    display: block;
-    margin: 0 auto;
-    font-size: 30px;
-}
-
-.poll__choice:hover { 
-    background-color: var(--dkblue);
-    color: white;
-    text-decoration: none;
-    transition: all 0.2s ease;
-    padding-left: 50px;
-    padding-right: 50px;
-}
-
-.poll__footer {
-
-}
-
-.poll__user {
-
-}
-
-.poll__avatar {
-    border-radius: 50px;
-    vertical-align: top;
-    display: inline-block;
-    border: 1px solid var(--dkblue);
-}
-
-.poll__username {
-    font-family: 'Roboto';
-    font-size: 20px;
-}
-
-.poll__controls {
-
-}
-
-.poll__control {
-    background-color: var(--dkblue);
-    color: white;
-    padding-left: 10px;
-    padding-right: 10px;
-}
-
-/* Modifier */
-.poll--white{
-    border-width: 5px;
-    border-style: solid;
-    border-color: white;
-}
-
- /* 
- * Create Rulesets (selectors and properties)
- * for the social-nav
- */
-
-.social-nav {
-
-}
-
-.social-nav__list {
-
-}
-
-.social-nav__item {
-
-}
-
-.social-nav__link {
-    padding: 25px;
-    
-}
-
-.social-nav__link:hover {
+    text-shadow: 3px 3px black;
 }
